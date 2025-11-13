@@ -1,0 +1,1 @@
+export const githubApiURL = "https://api.github.com/users/Kantares77/repos";
