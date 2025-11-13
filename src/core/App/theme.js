@@ -37,7 +37,7 @@ export const themeLight = {
         buttonLink: {
             text: colorNames.white,
             border: colorNames.iron,
-            shadow: colorNames, lightBlue,
+            shadow: colorNames.lightBlue,
         },
         boxBackground: colorNames.white,
         headerLine: colorNames.mercury,
@@ -65,7 +65,7 @@ export const themeDark = {
         buttonLink: {
             text: colorNames.white,
             border: colorNames.iron,
-            shadow: colorNames, blueGray,
+            shadow: colorNames.blueGray,
         },
         boxBackground: colorNames.darkLighter,
         headerLine: colorNames.tundora,
