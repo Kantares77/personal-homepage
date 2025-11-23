@@ -9,7 +9,7 @@ const personalHomepageSlice = createSlice({
     reducers: {
         fetchRepositories: () => ({
             status: "loading",
-            repositories: "null",
+            repositories: null,
         }),
         fetchRepositoriesSuccess: (_, { payload: repositories }) => ({
             status: "success",
@@ -17,7 +17,7 @@ const personalHomepageSlice = createSlice({
         }),
         fetchRepositoriesError: () => ({
             status: "error",
-            repositories: "null",
+            repositories: null,
         }),
     },
 });
